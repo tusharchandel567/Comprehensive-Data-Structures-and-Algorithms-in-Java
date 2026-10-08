@@ -1,0 +1,15 @@
+//Program to pass array elements to a method .
+class program4 {
+    static void chaeckEvenOdd(int num)
+    {
+        if (num%2==0)
+            System.out.println(num+"is even");
+        else 
+            System.out.println(num+"is odd");
+    } //End of check even or odd ()
+    public static void main(String args[]){
+        int [] arr = {1,2,3,4,5,6,7,8,9,10};
+        for(int i=0;i<arr.length;i++)
+            chaeckEvenOdd(arr[i]);
+    }
+}
